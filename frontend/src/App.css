@@ -1,0 +1,19 @@
+/* App Container */
+.App {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f4f7fb;
+}
+
+/* Content container to hold different views */
+.content-container {
+  padding: 20px;
+  flex: 1;
+}
+
+/* Optional: add some margin to the top of each page */
+.content-container > * {
+  margin-top: 20px;
+}
